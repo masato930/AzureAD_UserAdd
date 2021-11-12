@@ -46,8 +46,8 @@ PS C:\WINDOWS\system32>
 
 # スクリプトのフロー
 
-![](https://storage.googleapis.com/zenn-user-upload/yjrj9bjfxkwtlmrkdq8cjcu0p516)
-<br>
+![スクリプトのフロー](https://user-images.githubusercontent.com/61190510/141425450-44ff62a2-d610-495a-a453-b2d0bafe648a.jpg)
+
 
 # 読み込むcsvファイル
 
@@ -161,11 +161,13 @@ Stop-Transcript | Out-Null
 
 - 「PowerShell ISE」起動後、本スクリプト「AzureAD_Useradd.ps1」を開く。
 
-![](https://storage.googleapis.com/zenn-user-upload/0wzzbo68p9gn9ybj9tcnflmti8op)
+![①](https://user-images.githubusercontent.com/61190510/141425757-3b27f00d-5de8-43eb-991f-9e127fb8b4c1.jpg)
+
 
 - csvファイル/ログ保存先フォルダを指定する。
 
-![](https://storage.googleapis.com/zenn-user-upload/2xqym4j5qf1ooxelyja5cgychhcr)
+![②](https://user-images.githubusercontent.com/61190510/141425766-1b6fc17a-efd2-4bca-8fb7-63dba8217bca.jpg)
+
 
 - 以下コマンドにてAzureADへログインを実施する。
 
@@ -175,17 +177,19 @@ Stop-Transcript | Out-Null
 
 - ログインポップアップが表示されるため、AzureADの管理者アカウントにてログインを実施する。
 
-![](https://storage.googleapis.com/zenn-user-upload/e7wn0aucen2r7yyytefau2i3rejv)
+![③](https://user-images.githubusercontent.com/61190510/141425778-365d5b40-7a46-4f89-9afc-93e7f1b9f3b9.jpg)
+
 
 - ログインが完了すると、以下のように結果が表示される。
 
-![](https://storage.googleapis.com/zenn-user-upload/ubehdvw0llk2lwy4jwwsvuwyxw94)
+![④](https://user-images.githubusercontent.com/61190510/141425798-665a2750-6d34-4f54-9b74-27f1d3bbc2cf.jpg)
 
 ## スクリプト実行
 
 - 「PowerShell ISE」の実行ボタンを押下する。
 
-![](https://storage.googleapis.com/zenn-user-upload/3y0hv69hhyo4odu4e31t5jfmjjt7)
+![⑤](https://user-images.githubusercontent.com/61190510/141425812-38f49606-1682-4f32-9ae5-cdac7624b480.jpg)
+
 
 - csv処理前事前確認が表示される。
 
@@ -208,13 +212,14 @@ YamadaSaburo syamada@contoso.com JP       syamada
 
 - ユーザー追加処理前の確認ポップアップが表示される。
 
-問題なければ**Yes**を押下する。
+問題なければ**はい**を押下する。
 
-![](https://storage.googleapis.com/zenn-user-upload/qmw8ikikbn8drj4xab8avgjm7pjn)
+![⑥](https://user-images.githubusercontent.com/61190510/141426048-683f1ed7-7fb8-4a56-8a5d-b87930153bd2.jpg)
 
-※**No**を押下した場合は、以下のように表示され、スクリプトが終了する。
+※**いいえ**を押下した場合は、以下のように表示され、スクリプトが終了する。
 
-![](https://storage.googleapis.com/zenn-user-upload/59f8xresbkuj3zv8vcyhebv71r8l)
+![⑦](https://user-images.githubusercontent.com/61190510/141426106-3daad2f5-0373-4fa5-927d-7ac24ac203bf.jpg)
+
 
 - AzureADへのユーザー追加処理が走る。
 
@@ -239,11 +244,15 @@ Get-AzureADUser
 
 実行例)
 
-![](https://storage.googleapis.com/zenn-user-upload/3vm195qxxznl7i004y8v2b33vwj6)
+
+![⑧](https://user-images.githubusercontent.com/61190510/141426128-9b077d9f-8302-4ee9-afb7-330a8a0590df.jpg)
+
 
 - AzureADのGUI画面
 
-![](https://storage.googleapis.com/zenn-user-upload/y6o2sm9y7byhc5yi6kmxivjn0oih)
+![⑨](https://user-images.githubusercontent.com/61190510/141426162-5bc8e5c5-03f5-49fd-804a-2dece9c80dfa.jpg)
+
+
 
 ※AzureADの管理画面のリンクは以下になります。
 [Azure Active Directory admin center](https://aad.portal.azure.com)
