@@ -260,12 +260,3 @@ Get-AzureADUser
 
 <br>
 
-# さいごに
-このような形で、さくっとAzureADにユーザーを追加するためのスクリプトを作成しました。
-AzureAD学習中のため、今後もAzureAD関連の知識をアウトプットする予定です。
-※余裕があれば、YouTubeでもご紹介したいと思います。
-
-私のYouTubeチャンネル
-[さっとん【SIerインフラチャンネル】](https://www.youtube.com/channel/UCYaSYnagyhKzdOXK_RsiKiA)
-
-
